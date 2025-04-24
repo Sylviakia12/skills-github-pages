@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Am I</title>
+
+    p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #006699;
+            text-align: center;
+        }
+
+        .info {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 70%;
+            margin: auto;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+
+    ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Who Am I</h1>
+
+    <div class="info">
+        <p><span class="label">Full Name:</span> <span style="color: darkblue;">MARY SYLVIA A/P SELVANAYAKAN</span></p> <!-- Inline style -->
+        <p><span class="label">Age:</span> I'll be turning 22 this coming December</p>
+        <p><span class="label">Educational Background:</span></p>
+        <ul>
+            <li>I began my education at SK Convent Taiping.</li>
+            <li>Then, continued my secondary studies at SMK Convent Taiping.</li>
+            <li>I then completed my Form 6 at SMK Dr. Burhanuddin, Taiping.</li>
+            <li>Currently, I am pursuing my degree at Universiti Malaysia Perlis (UniMAP)</li>
+        </ul>
+    </div>
+
+</body>
+</html>
